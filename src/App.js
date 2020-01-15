@@ -3,6 +3,7 @@ import './Global.css';
 
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 
 function App() {
@@ -32,7 +33,22 @@ function App() {
           <button type="submit">Enviar</button>
         </form>
       </aside>
-      <main></main>
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src={`https://avatars3.githubusercontent.com/u/30440137?s=460&v=4`} alt="img from github"/>
+              <div className="user-info">
+                <strong>Daniel Haro</strong>
+                <spa>C#, ReactJS</spa>
+              </div>
+            </header>
+            <p>Desenvolver FullStack</p>
+            <a href="/">Acessar perfil no GitHub</a>
+          </li>
+        </ul>
+
+      </main>
     </div>
   );
 }
